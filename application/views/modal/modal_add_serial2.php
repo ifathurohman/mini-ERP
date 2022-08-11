@@ -1,0 +1,56 @@
+<!-- Modal -->
+<div id="modal-add-serial2" class="modal modal-primary fade modal-fade-in-scale-up" data-backdrop="static" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" style="margin-top: 20px;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+        <h4 class="modal-title">Modal Title</h4>
+      </div>
+      <div class="modal-body">
+        <form id="form-serial2" autocomplete="off">
+          <input type="hidden" name="page">
+          <input type="hidden" name="header_code">
+          <input type="hidden" name="detail_code">
+          <input type="hidden" name="productid">
+          <input type="hidden" name="product_type">
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label class="control-label">Product Name</label>
+              <input name="product_name" id="product_name" type="text" class="form-control readonly">
+              <span class="help-block"></span>
+            </div>
+            <div class="form-group col-sm-3">
+              <label class="control-label">Product Type</label>
+              <input type="text" name="product_type_txt" class="form-control readonly">
+              <span class="help-block"></span>
+            </div>
+            <div class="form-group col-sm-3">
+              <label class="control-label">Qty</label>
+              <input name="serial_qty" id="serial_qty" type="text" class="form-control readonly">
+              <span class="help-block"></span>
+            </div>
+            <div class="form-group col-sm-12">
+              <table class="table-add-serial table table-hover dataTable table-striped width-full input-table2" style="margin-top: 15px;margin-bottom: 0px;">
+                <thead>
+                  <tr>
+                    <th colspan="2">Serial Number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div class="btn-group">
+          <button id="btnSave" onclick="save_serial2()" type="button" class="btn btn-primary save btn-add-serial">Save</button>
+          <button type="button" class="btn btn-danger btn-default margin-0 kotak" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+Vendor
+Position
+0 = Perusahaan
+1 = Branch
+2 = Sales/vendor
+3 = Customer

@@ -1,0 +1,149 @@
+.loader-overlay {
+  background: #4d4d4d;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  overflow: hidden;
+  margin: auto;
+}
+.loader:before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 16px solid #404040;
+  border-radius: 200px;
+}
+
+.image {
+  margin-left:595px;
+  margin-top:389px;
+}
+
+.circle {
+  position: absolute;
+  display: block;
+  -webkit-animation: circle 1.3s infinite linear;
+          animation: circle 1.3s infinite linear;
+}
+.circle svg {
+  display: block;
+}
+
+.circle-2 {
+  animation-direction: reverse;
+}
+
+.circle-1 circle {
+  stroke-dasharray: 400 600;
+  stroke-dashoffset: 100;
+  stroke: #ea6262;
+}
+
+.circle-2 circle {
+  stroke-dasharray: 300 600;
+  stroke-dashoffset: 100;
+  stroke: #62a8ea;
+}
+
+section.content {
+  position: relative;
+  color: #333333;
+  width: 100vw;
+  padding: 2rem 0rem;
+}
+section.content article {
+  width: 50ex;
+  margin: auto;
+}
+section.content h1 {
+  font-size: 5rem;
+  padding-top: 2rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+section.content p {
+  font-size: 1rem;
+  font-family: 'BLOKKNeue-Regular';
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+}
+
+section.content-secondary {
+  position: relative;
+  background: #333333;
+  color: #eee;
+  width: 100vw;
+  min-height: 300px;
+  display: none;
+}
+section.content-secondary article {
+  display: none;
+}
+section.content-secondary h3 {
+  position: relative;
+}
+section.content-secondary h3:nth-of-type(2) {
+  padding-top: 4rem;
+  text-decoration: underline;
+}
+
+button.start {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  outline: 0;
+  border: 0;
+  background: #1ae773;
+  color: white;
+  min-width: 20rem;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  transition: all 0.3s linear;
+}
+button.start:hover {
+  background: #16d167;
+  letter-spacing: .15rem;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: rotate(0turn);
+            transform: rotate(0turn);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes circle {
+  0% {
+    -webkit-transform: rotate(0turn);
+            transform: rotate(0turn);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}

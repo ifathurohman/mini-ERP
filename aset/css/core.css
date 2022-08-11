@@ -1,0 +1,43 @@
+.nav.nav-tabs > li.active > a {
+  background-color: #ffffff;
+  border: 0;
+}
+.tabs-vertical > li.active > a:hover {
+  color: #5fbeaa !important;
+}
+.nav.tabs-vertical > li > a {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  color: #505461 !important;
+  cursor: pointer;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav.nav-tabs > li:last-of-type a {
+  margin-right: 0px;
+}
+/*.nav > li > a {
+    color: #ffffff !important;
+    padding: 0px 15px;
+    position: relative;
+}*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .tabs-vertical > li.active > a, .tabs-vertical > li.active > a:focus, .tabs-vertical > li.active > a:hover {
+    color: #229ee6 !important;
+}
+.nav > li > a {
+    color: #229ee6 !important;
+    /*line-height: 60px;*/
+    /*padding: 0px 15px;*/
+    font-weight: 500;
+    position: relative;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #7a7e8200;
+}

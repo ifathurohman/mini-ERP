@@ -1,0 +1,39 @@
+/**
+ * jQuery Line Progressbar
+ * Author: KingRayhan<rayhan095@gmail.com>
+ * Author URL: https://electronthemes.com
+ * Version: 1.1.1
+ */
+
+/** Progressbar class css*/
+.progressbar {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 0;
+    position: relative;
+    background-color: rgb(149, 154, 156) !important;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.proggress{
+	height: 8px;
+	width: 10px;
+	background-color: #3498db;
+}
+/*
+.percentCount{
+	float:right;
+	margin-top: 10px;
+	clear: both;
+	font-weight: bold;
+	font-family: Roboto,sans-serif;
+	color: #f8b125;
+}*/
+.percentCount {
+    float: right;
+    margin-top: -18px;
+    font-weight: bold;
+    margin-right: 45%;
+    font-family: Roboto,sans-serif;
+    color: #ffc107;
+}
